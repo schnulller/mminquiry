@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Edge Cases"
+title:  "Einige Unwägbarkeiten"
 date:   2020-04-13 17:04:01
 categories: post
 ---
-Some edge cases and cautionary examples on using Markdown for writing content using this theme. In particular, list syntax can really knot things up.
+Einige Dinge sind etwas sonderbar eingestellt und bedürfen weiterer Bearbeitung. Insbesondere technische Grenzen über Jekyll, CSS oder JavaScript stellen hier ein Hindernis dar.
 <!--more-->
 
 ### Mathjax improperly parsing greater and less than and ampersands inside blocks

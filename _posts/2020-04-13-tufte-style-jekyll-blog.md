@@ -1,18 +1,11 @@
 ---
 layout: post
-title:  "Tufte-style Jekyll blog"
+title:  "Web-Typo nach Edward Tufte"
 date:   2020-04-13 09:46:04
 categories: jekyll css
 ---
 
-{% newthought 'The Tufte Jekyll theme' %} is an attempt to create a website design with the look and feel of Edward Tufte's books and handouts. Tufte’s style is known for its extensive use of sidenotes, tight integration of graphics with text, and well-set typography.<!--more--> The idea for this project is essentially cribbed wholesale from Tufte and R Markdown's Tufte Handout format{% sidenote 'One' 'See [tufte-latex.github.io/tufte-latex/](https://tufte-latex.github.io/tufte-latex/) and [rmarkdown.rstudio.com/tufte_handout_format](http://rmarkdown.rstudio.com/tufte_handout_format.html)' %} This page is an adaptation of the [Tufte Handout PDF](http://rmarkdown.rstudio.com/examples/tufte-handout.pdf).
-
-## Jekyll customizations
-
-This Jekyll blog theme is based on the github repository by Edward Tufte [here](https://github.com/edwardtufte/tufte-css), which was orginally created by Dave Leipmann, but is now labeled under Edward Tufte's moniker. I borrowed freely from the Tufte-CSS repo and have transformed many of the typographic and page-structural features into a set of custom Liquid tags that make creating content using this style much easier than writing straight HTML. Essentially, if you know markdown, and mix in a few custom Liquid tags, you can be creating a website with this document style in short order.
-
-The remainder of this sample post is a self-documenting survey of the features of the Tufte-Jekyll theme. I have taken almost all of the sample content from the [Tufte-css](https://github.com/edwardtufte/tufte-css) repo and embedded it here to illustrate the parity in appearence between the two. The additional verbiage and commentary I have added is to document the custom *Liquid* markup tags and other features that are bundled with this theme.
-
+{% newthought 'Web-Typo nach Tufte' %} is an attempt to create a website design with the look and feel of Edward Tufte's books and handouts. <!--more-->
 ### The SASS settings file
 
 I have taken much of the actual *Tufte-css* files and modified them as necessary to accomodate the needs inherent in creating a Jekyll theme that has additional writing aids such as the Liquid tags. I have also turned the CSS file into a [SASS](http://sass-lang.com) file (the .scss type).  This means that you can alter things like font choices, text color, background color, and underlining style by changing values in this file. When the Jekyll site is built using ```jekyll build``` the settings in this file will be compiled into the customized CSS file that the site uses.

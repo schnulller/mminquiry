@@ -4,7 +4,7 @@ subtitle: keiner
 author: github/schnulller
 simple_search: http://google.com/search
 description: nein
-name: Ich brauche Deine Hand.
+name: Tufte Test
 markdown: kramdown
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 permalink: /articles/:short_year/:title
