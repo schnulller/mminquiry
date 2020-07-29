@@ -1,0 +1,57 @@
+---
+# this ensures Jekyll reads the file to be transformed into CSS later
+# only Main files contain this front matter, not partials.
+---
+
+@import "../_sass/fonts";
+@import "../_sass/settings";
+@import "../_sass/syntax-highlighting";
+
+
+header {
+    padding-top: 3.5rem;
+    margin-bottom: 6rem;
+}
+
+.sitename {
+    display: inline;
+}
+
+.sitename a {
+    letter-spacing: normal !important;
+    display: inline;
+    font-size: 2.8rem;
+}
+
+nav a {
+    float: none !important;
+    vertical-align: baseline !important;
+    display: inline !important;
+    letter-spacing: normal !important;
+    color: $text-color !important;
+}
+
+nav.group a.active::after {
+    content: none;
+}
+
+nav.group a.active::before {
+    content: none;
+}
+
+nav.group a.active {
+    font-weight: bold;
+    color: $contrast-color !important;
+}
+
+.group {
+    min-height: 100% !important;
+}
+
+.listing p {
+    display: inline;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    margin-left: 0;
+    margin-right: 0;
+}

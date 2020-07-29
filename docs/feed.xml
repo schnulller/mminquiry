@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tufte-Jekyll</title>
-    <description>A Jekyll theme for content-rich sites</description>
-    <link>/mminquiry/</link>
-    <atom:link href="/mminquiry/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 29 Jul 2020 14:21:59 -0400</pubDate>
-    <lastBuildDate>Wed, 29 Jul 2020 14:21:59 -0400</lastBuildDate>
+    <title>modern mind inquiry</title>
+    <description>nein</description>
+    <link>http://localhost:4000/mminquiry/</link>
+    <atom:link href="http://localhost:4000/mminquiry/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 29 Jul 2020 22:13:27 +0200</pubDate>
+    <lastBuildDate>Wed, 29 Jul 2020 22:13:27 +0200</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
     
       <item>
@@ -171,9 +171,9 @@ D = \left(\begin{matrix}
 &lt;p&gt;produces the following image with a title. Notice that I have had to escape the double quotes in the HTML with a backslash. Also, the example above leaves out the single quote in ‘Tufte’s” because of the topsy-turvy way that you have to escape the escapes in code sections that are used for illustrative purposes in this text. Bottom line is that there are occasionally some odd interactions between the Markdown parser, custom &lt;em&gt;Liquid&lt;/em&gt; tags and HTML.&lt;/p&gt;
 &lt;figure class=&quot;fullwidth&quot;&gt;&lt;img src=&quot;/mminquiry/assets/img/rhino.png&quot; /&gt;&lt;figcaption&gt;Tufte&amp;#8217;s pet rhino (via &lt;a href=&quot;//www.edwardtufte.com/tufte/&quot;&gt;Edward Tufte&lt;/a&gt;)&lt;/figcaption&gt;&lt;/figure&gt;
 </description>
-        <pubDate>Mon, 13 Apr 2020 13:04:01 -0400</pubDate>
-        <link>/mminquiry/articles/20/Edge-Cases</link>
-        <guid isPermaLink="true">/mminquiry/articles/20/Edge-Cases</guid>
+        <pubDate>Mon, 13 Apr 2020 19:04:01 +0200</pubDate>
+        <link>http://localhost:4000/mminquiry/articles/20/Edge-Cases</link>
+        <guid isPermaLink="true">http://localhost:4000/mminquiry/articles/20/Edge-Cases</guid>
         
         
         <category>post</category>
@@ -631,9 +631,9 @@ etc...
    ```&lt;/code&gt; &lt;/pre&gt;
 
 </description>
-        <pubDate>Mon, 13 Apr 2020 05:46:04 -0400</pubDate>
-        <link>/mminquiry/articles/20/tufte-style-jekyll-blog</link>
-        <guid isPermaLink="true">/mminquiry/articles/20/tufte-style-jekyll-blog</guid>
+        <pubDate>Mon, 13 Apr 2020 11:46:04 +0200</pubDate>
+        <link>http://localhost:4000/mminquiry/articles/20/tufte-style-jekyll-blog</link>
+        <guid isPermaLink="true">http://localhost:4000/mminquiry/articles/20/tufte-style-jekyll-blog</guid>
         
         
         <category>jekyll</category>

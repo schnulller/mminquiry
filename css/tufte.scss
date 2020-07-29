@@ -384,7 +384,7 @@ header > nav  a{
   font-size: 1.2rem;
   font-family: $sans-font;
   letter-spacing: 0.15em;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   color: $contrast-color;
   padding-top: 1.5rem;
   text-decoration: none;
@@ -429,9 +429,9 @@ ul.footer-links li{
 //Full width page styling stuff
 
 body.full-width, .content-listing, ul.content-listing li.listing{ width: 90%;
-       margin-left: auto;
+       margin-left: 0px;
        margin-right: auto;
-       padding: 0% 5%;
+       padding: 0% /* 5% */;
 
 }
 .full-width article p{
