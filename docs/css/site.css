@@ -130,13 +130,11 @@
 
 .highlight .il { color: #099; }
 
+html { font-size: 14px; -moz-hyphens: auto; -o-hyphens: auto; -webkit-hyphens: auto; -ms-hyphens: auto; hyphens: auto; }
+
 header { padding-top: 3.5rem; margin-bottom: 6rem; }
 
-.sitename { display: inline; }
-
-.sitename a { letter-spacing: normal !important; display: inline; font-size: 2.8rem; }
-
-nav a { float: none !important; vertical-align: baseline !important; display: inline !important; letter-spacing: normal !important; color: #111 !important; }
+nav a { float: none !important; vertical-align: baseline !important; display: inline !important; letter-spacing: normal !important; color: #111 !important; padding-right: 0px !important; margin-right: 28px !important; }
 
 nav.group a.active::after { content: none; }
 
@@ -145,6 +143,10 @@ nav.group a.active::before { content: none; }
 nav.group a.active { font-weight: bold; color: #009400 !important; }
 
 .group { min-height: 100% !important; }
+
+.sitename { display: inline; font-style: normal !important; }
+
+.sitename a { letter-spacing: normal !important; display: inline; font-size: 2.8rem; color: #ffffff !important; background-color: #009400; margin: 0 3rem 0 0 !important; padding: 0.2rem 0.5rem 0.2rem 0.5rem !important; }
 
 .listing p { display: inline; margin-top: 0em; margin-bottom: 0em; margin-left: 0; margin-right: 0; }
 

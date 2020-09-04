@@ -1,26 +1,25 @@
 ---
 # this ensures Jekyll reads the file to be transformed into CSS later
 # only Main files contain this front matter, not partials.
+nav_exclude: true
 ---
 
 @import "../_sass/fonts";
 @import "../_sass/settings";
 @import "../_sass/syntax-highlighting";
 
+html {
+    font-size: 14px;
+    -moz-hyphens: auto;
+    -o-hyphens: auto;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto; 
+}
 
 header {
     padding-top: 3.5rem;
     margin-bottom: 6rem;
-}
-
-.sitename {
-    display: inline;
-}
-
-.sitename a {
-    letter-spacing: normal !important;
-    display: inline;
-    font-size: 2.8rem;
 }
 
 nav a {
@@ -29,6 +28,8 @@ nav a {
     display: inline !important;
     letter-spacing: normal !important;
     color: $text-color !important;
+    padding-right: 0px !important;
+    margin-right: 28px !important;
 }
 
 nav.group a.active::after {
@@ -46,6 +47,21 @@ nav.group a.active {
 
 .group {
     min-height: 100% !important;
+}
+
+.sitename {
+    display: inline;
+    font-style: normal !important;
+}
+
+.sitename a {
+    letter-spacing: normal !important;
+    display: inline;
+    font-size: 2.8rem;
+    color:#ffffff !important;
+    background-color: $contrast-color;
+    margin: 0 3rem 0 0 !important;
+    padding: 0.2rem 0.5rem 0.2rem 0.5rem !important;
 }
 
 .listing p {

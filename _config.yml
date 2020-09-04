@@ -3,8 +3,8 @@ title: modern mind inquiry
 subtitle: keiner
 author: github/schnulller
 simple_search: http://google.com/search
-description: nein
-name: Tufte Test
+description: Idiosynkratische Lesungen
+name: Ich brauche deine Hand
 markdown: kramdown
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 permalink: /articles/:short_year/:title
